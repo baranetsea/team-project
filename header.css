@@ -1,0 +1,236 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: #fcf9f9;
+  background-color: #1c2225;
+}
+
+.section-paddings {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+p {
+  font-weight: 400;
+  color: rgba(252, 249, 249, 0.4);
+}
+
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 50px;
+  }
+}
+
+/* ========== header ========= */
+.header-logo {
+  margin-right: auto;
+}
+
+.header-navigation-link {
+  display: none;
+}
+
+.header-tel {
+  display: none;
+}
+.container-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-right-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-social-list {
+  display: flex;
+  gap: 12px;
+}
+
+.header-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  width: 44px;
+  height: 44px;
+  background: rgba(252, 249, 249, 0.1);
+}
+
+.header-social-list-link-item {
+  line-height: 0;
+}
+
+.header-social-list-link:hover {
+  border: 1px solid #ecd979;
+}
+
+.header-burger {
+  background-color: inherit;
+  border: none;
+  line-height: 0;
+  width: 36px;
+  height: 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
+    min-width: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-burger {
+    width: 44px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-nav-align {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-logo {
+    margin-right: 60px;
+  }
+
+  .header-link-list {
+    display: flex;
+    gap: 25px;
+  }
+
+  .header-navigation-link {
+    display: flex;
+    color: #fcf9f9;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .header-tel {
+    display: block;
+    margin-right: 20px;
+  }
+
+  .header-tel-link {
+    color: #fcf9f9;
+    font-style: normal;
+    text-decoration: none;
+    padding: 14px 28px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    width: 193px;
+    height: 48px;
+  }
+
+  .header-tel-link:hover {
+    border: 1px solid #ecd979;
+  }
+  .header-burger {
+    display: none;
+  }
+}
+/* ========== mobile menu ============= */
+
+.header-mobile-container {
+  width: 274px;
+  height: 100% vh;
+  padding-top: 20px;
+  background-color: #ecd979;
+}
+
+.header-mobile-menu-align {
+  display: flex;
+  margin: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-menu-address {
+  font-weight: 400;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.17em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #1c2225;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+  border-radius: 15px;
+  padding: 12px 20px;
+  width: 158px;
+  height: 38px;
+}
+
+.header-mobile-menu-close-btn {
+  width: 36px;
+  height: 36px;
+  border: none;
+  background-color: inherit;
+  stroke: #1c2225;
+  stroke-width: 2px;
+  line-height: 0;
+}
+
+.header-mobile-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  margin-top: 186px;
+  margin-bottom: 185px;
+  margin-right: 20px;
+}
+.header-mobile-list-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29em;
+  text-transform: uppercase;
+}
+.header-mobile-list-link-item {
+  text-decoration: none;
+  color: #1c2225;
+}
